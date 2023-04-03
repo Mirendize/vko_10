@@ -5,12 +5,14 @@ public class User {
     protected String lastName;
     protected String email;
     protected String degreeProgram;
+    protected String diploma;
 
-    public User(String firstName, String lastName, String email, String degreeProgram) {
+    public User(String firstName, String lastName, String email, String degreeProgram, String diploma) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
         this.degreeProgram = degreeProgram;
+        this.diploma = diploma;
     }
 
     public String getFirstName() {
@@ -28,5 +30,10 @@ public class User {
     public String getDegreeProgram() {
         return degreeProgram;
     }
+
+    public String getDiploma(){
+        return diploma;
+    }
 }
+
 

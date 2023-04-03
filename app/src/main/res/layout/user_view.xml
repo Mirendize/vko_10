@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="100dp"
+    android:layout_height="wrap_content"
     android:layout_marginLeft="30dp"
     android:layout_marginTop="30dp"
     android:layout_marginRight="30dp"
@@ -10,7 +10,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <TextView
@@ -38,5 +38,14 @@
             android:layout_marginLeft="10dp"
             android:text="Sähköposti"
             android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/txtDiploma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:hint="Mahdolliset tutkinnot"
+            android:textColor="#FFFFFF" />
+
     </LinearLayout>
 </androidx.appcompat.widget.LinearLayoutCompat>
